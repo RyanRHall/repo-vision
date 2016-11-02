@@ -1,3 +1,3 @@
 #! /usr/bin/env node
 
-require("repository-visualizer").start()
+require("../index.js").start()
