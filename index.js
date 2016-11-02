@@ -1,3 +1,3 @@
-exports.printMsg = function() {
+exports.start = function() {
   console.log("This is a message from the demo package");
 };
