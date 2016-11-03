@@ -1,6 +1,6 @@
 {
   "name": "repo-vision",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Helps you visualize the current status of your local repository by opening a visualizer in your browser. View your entire commit history, color-coded branches, and commit messages. Also use the visualizer to checkout different states of your project.",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanRHall/repository_visualizer.git"
+    "url": "https://github.com/RyanRHall/repo-vision.git"
   },
   "bugs": {
-    "url": "https://github.com/RyanRHall/repository_visualizer/issues"
+    "url": "https://github.com/RyanRHall/repo-vision/issues"
   },
-  "homepage": "https://github.com/RyanRHall/repository_visualizer"
+  "homepage": "https://github.com/RyanRHall/repo-vision"
 }
