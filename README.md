@@ -1,4 +1,4 @@
-## Repository Visualizer
+# Repo Vision
 
 An `npm` package that allows your to visualize and interact with your local repository. View branches and commit messages, and checkout previous states of your project straight from the browser.
 
@@ -10,16 +10,16 @@ To run, simply:
 
 ---
 
-### Options
+## Options
 
-Use `--port` to specify the port
+* Specify the port
 
-```
-  rv-start --port=8080
-```
+  ```
+    rv-start --port=8080
+  ```
 
-Specify a relative directory
+* Specify a relative directory
 
-```
-  rv-start ./path/to/project/
-```
+  ```
+    rv-start ./path/to/project/
+  ```
