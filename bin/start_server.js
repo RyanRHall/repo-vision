@@ -1,4 +1,21 @@
 #! /usr/bin/env node
+const argv = require('argv');
+const path = require('path');
 
-const path = process.env.PWD;
-require("../index.js").start(path);
+argv.option([
+  {
+    name: 'port',
+    short: 'p',
+    type: 'int',
+    description: "Sets the local port"
+  },
+]);
+
+const args = argv.run();
+const pwd = process.env.PWD;
+const suppliedPath = args.targets[0];
+
+const setPort = args.options.port || 4000
+const directory = suppliedPath ? path.join(pwd, suppliedPath) : pwd;
+
+require("../index.js").start(directory, setPort);

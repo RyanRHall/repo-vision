@@ -15,11 +15,14 @@
     "git",
     "view",
     "commit",
-    "tree"
+    "tree",
+    "history"
   ],
   "author": "Ryan Hall",
   "license": "ISC",
   "dependencies": {
+    "argv": "0.0.2",
+    "colors": "^1.1.2",
     "express": "^4.14.0"
   },
   "repository": {
