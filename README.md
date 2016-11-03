@@ -5,5 +5,19 @@ An `npm` package that allows your to visualize and interact with your local repo
 To run, simply:
 
   0. `npm install -g repository-visualizer`
-  0. `rv-start` (in the root directory of your project!)
+  0. `rv-start`
   0. navigate to localhost:4000
+
+#### Options
+
+Use `--port` to specify the port
+
+```
+  rv-start --port=8080
+```
+
+Specify a relative directory
+
+```
+  rv-start ./path/to/project/
+```
