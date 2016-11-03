@@ -8,7 +8,9 @@ To run, simply:
   0. `rv-start`
   0. navigate to localhost:4000
 
-#### Options
+---
+
+### Options
 
 Use `--port` to specify the port
 
