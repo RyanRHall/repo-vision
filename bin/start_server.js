@@ -1,3 +1,4 @@
 #! /usr/bin/env node
 
-require("../index.js").start()
+const path = process.env.PWD;
+require("../index.js").start(path);

@@ -6,4 +6,4 @@ To run, simply:
 
   0. `npm install repository-visualizer`
   0. `rv-start` (in the root directory of your project!)
-  0. navigate to localhost 3000
+  0. navigate to localhost:4000
