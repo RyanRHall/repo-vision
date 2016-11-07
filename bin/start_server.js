@@ -5,7 +5,6 @@ const path = require('path');
 argv.option([
   {
     name: 'port',
-    short: 'p',
     type: 'int',
     description: "Sets the local port"
   },
