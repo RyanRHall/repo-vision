@@ -14,7 +14,7 @@ exports.start = function(directory, port) {
   function _start(){
     console.log("\nstarting server".green, "(CTL + C to stop)");
     server.start(directory, port);
-    console.log("navigate to", `http://localhost:${port}`.magenta, "to view");
+    console.log("navigate to", `http://localhost:${port}`.magenta, "to view", "\n");
   }
 
   function _error(){

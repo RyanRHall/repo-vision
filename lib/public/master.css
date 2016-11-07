@@ -17,16 +17,19 @@ h1 {
   font-weight: normal;
 }
 
-#key-container {
+#edge-keys {
   margin-top: 5px;
   border-top: 2px solid black;
   padding-top: 10px;
+}
+
+.key-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#key-container span {
+.key-container span {
   display: block;
   font-size: 120%;
   font-weight: bold;
@@ -35,6 +38,7 @@ h1 {
   border: 2px solid black;
   box-shadow: 5px 5px 5px #888;
   margin-bottom: 10px;
+  background-color: whitesmoke;
 }
 
 #tree {
@@ -72,29 +76,36 @@ h1 {
 }
 
 #checkout-button {
-  cursor: pointer;
   font-size: 100%;
   padding: 4px;
+}
+
+.active-button {
   color: #444;
-  border-radius: 5px;
+  cursor: pointer;
   background-color: lightgreen;
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */
+  border-radius: 5px;
   box-shadow: 2px 2px 2px #444,
               -1px 1px 1px #AAA,
               1px -1px 1px #AAA,
               -1px -1px 1px #AAA;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
 }
 
-#checkout-button:hover {
+.active-button:hover {
   color: black;
 }
 
-#checkout-button:active {
+.active-button:active {
   box-shadow: 1px 1px 1px #444,
               -1px 1px 1px #AAA,
               1px -1px 1px #AAA,
               -2px -2px 2px #AAA;
+}
+
+.inactive-button {
+  color: lightgreen;
 }
