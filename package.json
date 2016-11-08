@@ -1,6 +1,6 @@
 {
   "name": "repo-vision",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Helps you visualize the current status of your local repository by opening a visualizer in your browser. View your entire commit history, color-coded branches, and commit messages. Also use the visualizer to checkout different states of your project.",
   "main": "index.js",
   "scripts": {
