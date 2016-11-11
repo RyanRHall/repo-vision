@@ -1,7 +1,7 @@
 {
   "name": "repo-vision",
-  "version": "1.1.1",
-  "description": "Helps you visualize the current status of your local repository by opening a visualizer in your browser. View your entire commit history, color-coded branches, and commit messages. Also use the visualizer to checkout different states of your project.",
+  "version": "1.1.2",
+  "description": "Helps you to visualize and interact with your local repository. View branches and commit messages, and checkout previous states of your project straight from the browser.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 # Repo Vision
 
-An `npm` package that allows you to visualize and interact with your local repository. View branches and commit messages, and checkout previous states of your project straight from the browser.
+An `npm` package that helps you to visualize and interact with your local repository. View branches and commit messages, and checkout previous states of your project straight from the browser.
 
 ![demo](assets/demo.png)
 
