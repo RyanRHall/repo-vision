@@ -1,6 +1,6 @@
 {
   "name": "repo-vision",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Helps you to visualize and interact with your local repository. View branches and commit messages, and checkout previous states of your project straight from the browser.",
   "main": "index.js",
   "scripts": {
